@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="../static/less/datail.css">
+    <link rel="stylesheet" href="../static/font/iconfont.css">
+    <link rel="stylesheet" href="../static/less/swiper-3.4.2.min.css">
+</head>
+
+<body>
+    <div class="wrap">
+        <header>
+            <a href="../page/index.html"><i class="iconfont">&#xe6ce</i></a>
+            <p class="btn"><span class="span1">商品</span><span>详情</span></p>
+            <i class="iconfont">&#xe729</i>
+        </header>
+        <section>
+            <div class="tab">
+                <div class="swiper-container banner">
+                    <script type="text/x-handlebars-template" id="banner-tpl">
+                        <div class="swiper-wrapper">
+                            {{#each data}}
+                            <div class="swiper-slide"><img src="{{img}}" alt=""></div>
+                            {{/each}}
+                        </div>
+                    </script>
+                </div>
+                <div class="title">
+                    <p>欧式天丝四件套</p>
+                    <span>柔滑兰精天丝清凉亲肤保湿</span>
+                    <p class="morney">￥599</p>
+                </div>
+                <div class="jifen">
+                    <p>积分：购买最高得59积分</p>
+                    <p>服务：30天无忧退货 48小时快速退款 满88免邮</p>
+                </div>
+            </div>
+            <div class="tab tabb">
+                <p><span class="before">适用季节</span><span class="after">四季通用</span></p>
+                <p><span class="before">款式</span><span class="after">床单式</span></p>
+                <p><span class="before">面料</span><span class="after">全棉</span></p>
+                <p><span class="before">风格</span><span class="after">北欧</span></p>
+                <p><span class="before">工艺</span><span class="after">AB班</span></p>
+                <p><span class="before">图案</span><span class="after">画质</span></p>
+
+
+            </div>
+
+        </section>
+        <footer>
+            <div class="tixing">
+                <div class="left">
+                    <span class="iconfont">&#xe6ea</span>
+                    <span class="iconfont">&#xe63c</span>
+                    <span class="iconfont">&#xe70e</span>
+                </div>
+                <div class="right">
+                    上架提醒
+                </div>
+            </div>
+            <button>即将上架</button>
+        </footer>
+    </div>
+
+</body>
+<script src="../static/js/lib/require.js" data-main="../static/js/detail"></script>
+
+</html>

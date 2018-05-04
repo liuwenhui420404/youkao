@@ -1,0 +1,126 @@
+*{
+    margin:0;
+    padding:0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body,html,.wrap{
+    width:100%;
+    height: 100%;
+}
+.wrap{
+    display: flex;
+    flex-direction: column;
+}
+header{
+    width:100%;
+    height: 98/75rem;
+    font-size:40/75rem;
+    display: flex;
+    line-height: 98/75rem;
+    justify-content:space-between;
+    padding-left:20/75rem;
+    padding-right:20/75rem;
+    p{
+        width:200/75rem;
+        height:75/75rem;
+        line-height: 75/75rem;
+        border:1/75rem solid #ccc;
+        display: flex;
+        margin-top:10/75rem;
+        .span1{
+            width:50%;
+            height:75/75rem;
+            background: #666;
+            color:#fff;
+            display: block;
+        }
+
+    }
+}
+section{
+    flex:1;
+    overflow: hidden;
+    overflow-y: scroll;
+    .tabb{
+        display: none;
+    }
+    .banner{
+        width:100%;
+        img{
+            width:100%;
+        }
+    }
+    .title{
+        width:100%;
+        font-size: 30/75rem;
+        padding-left: 20/75rem;
+        margin-top:-30/75rem;
+        p{
+            font-size: 40/75rem;
+        }
+        .morney{
+            color:red;
+        }
+    }
+    .jifen{
+        width:100%;
+        p{
+            width:100%;
+            height: 98/75rem;
+            line-height: 98/75rem;
+            padding-left:20/75rem;
+            border-top:1/75rem solid #ccc;
+            font-size: 30/75rem;
+        }
+    }
+    .tabb{
+        width:100%;
+        p{
+            width:100%;
+            padding-left:50/75rem;
+            padding-right:50/75rem;
+            height:98/75rem;
+            line-height: 98/75rem;
+            font-size: 40/75rem;
+            border-bottom:1/75rem solid #ccc;
+            .before{
+                color:#999;
+            }
+            .after{
+                margin-left:30/75rem;
+            }
+
+        }
+    }
+}
+footer{
+    width:100%;
+    height: 98/75rem;
+    line-height: 98/75rem;
+    display: flex;
+    font-size: 30/75rem;
+    button{
+        flex: 1;
+        height: 98/75rem;
+        line-height: 98/75rem ;
+        text-align: center;
+        background: #ccc;
+        color:#fff;
+        font-size: 30/75rem;
+        border:none;
+    }
+    .tixing{
+        flex:3;
+        display: flex;
+        justify-content: space-around;
+        .right{
+            color:red;
+        }
+        .left{
+            display: flex;
+            justify-content: space-around;
+        }
+    }
+}

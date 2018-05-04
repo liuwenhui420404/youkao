@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="../static/less/index.css">
+    <link rel="stylesheet" href="../static/font/iconfont.css">
+</head>
+
+<body>
+    <div class="wrap">
+        <header>
+            <div class="head">
+                <i class="iconfont">&#xe6ce</i>
+                <span><a href="./detail.html">居家</a></span>
+                <i class="iconfont">&#xe729</i>
+            </div>
+
+            <div class="title">
+                <ul class='title1'>
+                    <li class="active">床品件套</li>
+                    <li>被枕</li>
+                    <li>家具</li>
+                    <li>收纳</li>
+                    <li>布艺</li>
+                    <li>软装</li>
+                </ul>
+            </div>
+        </header>
+        <section>
+            <div class="tab-content tab1">
+                <div class="list">
+                    <script type="text/x-handlebars-template" id="list-tpl">
+                        {{#each data}}
+                        <dl>
+                            <dt><a href="../page/detail.html"><img src="{{img}}" alt=""></a></dt>
+                            <dd>
+                                <p>{{name}}</p>
+                                <span>{{morey}}</span>
+                            </dd>
+                        </dl>
+                        {{/each}}
+                    </script>
+                </div>
+            </div>
+            <div class="tab-content tab2">
+                22222
+            </div>
+            <div class="tab-content tab3">
+                <div class="list">
+                    <script type="text/x-handlebars-template" id="list-tpl">
+                        {{#each data}}
+                        <dl>
+                            <dt><img src="{{img}}" alt=""></dt>
+                            <dd>
+                                <p>{{name}}</p>
+                                <span>{{morey}}</span>
+                            </dd>
+                        </dl>
+                        {{/each}}
+                    </script>
+                </div>
+            </div>
+            <div class="tab-content tab4">
+                <div class="list">
+                    <script type="text/x-handlebars-template" id="list-tpl">
+                        {{#each data}}
+                        <dl>
+                            <dt><img src="{{img}}" alt=""></dt>
+                            <dd>
+                                <p>{{name}}</p>
+                                <span>{{morey}}</span>
+                            </dd>
+                        </dl>
+                        {{/each}}
+                    </script>
+                </div>
+            </div>
+            <div class="tab-content tab5">55555</div>
+            <div class="tab-content tab6">66666</div>
+        </section>
+    </div>
+</body>
+<script src="../static/js/lib/require.js" data-main="../static/js/main"></script>
+
+</html>
